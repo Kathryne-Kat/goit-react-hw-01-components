@@ -1,5 +1,5 @@
 import user from 'data/user.json';
-import { Profile } from './Profile';
+import { Profile } from './Profile/Profile';
 import data from 'data/data.json';
 import { Statistics } from './Statistics';
 import friends from 'data/friends.json';
@@ -16,7 +16,7 @@ export const App = () => {
         flexDirection: 'column', //не было
         justifyContent: 'center',
         alignItems: 'center',
-        fontSize: 40,
+        // fontSize: 40,
         color: '#010101',
       }}
     >

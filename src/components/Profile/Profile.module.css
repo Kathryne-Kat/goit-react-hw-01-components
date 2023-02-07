@@ -1,0 +1,83 @@
+.container {
+  width: 300px;
+  height: 354px;
+  border: 2px solid #c0c0c0;
+  border-radius: 5px;
+  background: #ffffff;
+}
+
+.avatar {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: block;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  /* text-align: center; */
+}
+
+.name {
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+}
+
+.tag {
+  font-weight: 500;
+  padding-top: 10px;
+  color: #979797;
+  text-align: center;
+}
+
+.stats {
+  margin-top: 40px;
+
+  display: flex;
+  /* justify-content: space-around; */
+  border: 2px solid #c0c0c0;
+  border-right: none;
+  border-left: none;
+  align-items: center;
+}
+
+.list {
+  width: 100px;
+  padding: 20px 0;
+  border-right: 2px solid #c0c0c0;
+}
+.listEnd {
+  width: 100px;
+  padding: 20px 0;
+}
+.label {
+  display: block;
+  color: #979797;
+  text-align: center;
+}
+.quantity {
+  display: block;
+  color: #000000;
+  font-weight: 700;
+  text-align: center;
+}
+/* <div className={css.description}>
+<img src={avatar} alt="User avatar" className={css.avatar} />
+<p className="name">{username}</p>
+<p className="tag">{tag}</p>
+<p className="location">{location}</p>
+</div>
+<ul className="stats">
+<li>
+  <span className="label">Followers</span>
+  <span className="quantity">{followers}</span>
+</li>
+<li>
+  <span className="label">Views</span>
+  <span className="quantity">{views}</span>
+</li>
+<li>
+  <span className="label">Likes</span>
+  <span className="quantity">{likes}</span>
+</li>
+</ul>
+</> */
