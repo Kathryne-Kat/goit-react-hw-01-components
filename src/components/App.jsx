@@ -1,22 +1,21 @@
 import user from 'data/user.json';
 import { Profile } from './Profile/Profile';
 import data from 'data/data.json';
-import { Statistics } from './Statistics';
+import { Statistics } from './Statistics/Statistics';
 import friends from 'data/friends.json';
-import { FriendList } from './FriendList';
+import { FriendList } from './FriendList/FriendList';
 import transactions from 'data/transactions.json';
-import { TransactionHistory } from './TransactionHistory';
+import { TransactionHistory } from './TransactionHistory/TransactionHistory';
 
 export const App = () => {
   return (
     <div
       style={{
-        height: '100%', //100vh
+        height: '100%',
         display: 'flex',
-        flexDirection: 'column', //не было
+        flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
-        // fontSize: 40,
         color: '#010101',
       }}
     >
