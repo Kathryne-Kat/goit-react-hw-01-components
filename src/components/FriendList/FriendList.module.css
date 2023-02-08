@@ -24,6 +24,15 @@
   margin-left: 10px;
   margin-right: 10px;
 }
+.online {
+  composes: status;
+  background-color: green;
+}
+
+.offline {
+  composes: status;
+  background-color: red;
+}
 
 .name {
   margin-left: 10px;
